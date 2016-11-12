@@ -220,6 +220,10 @@ class RulesTests: XCTestCase {
         verifyRule(ReturnArrowWhitespaceRule.description)
     }
 
+    func testSpacesNotTabs() {
+        verifyRule(SpacesNotTabsRule.description)
+    }
+
     func testStatementPosition() {
         verifyRule(StatementPositionRule.description)
     }
